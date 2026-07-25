@@ -1,0 +1,21 @@
+1. npm create-react-app rakshak
+
+2. npm install(Some Time Applye)
+
+3. npm install router-dom 
+
+4. npm install react-router-dom 
+
+5. npm install lucide-react(Some Time Applye)
+
+6. npm install aos(Some Time Applye)
+
+7. npm install @react-google-maps/api
+
+8. npm install useRef
+
+9. npm install renderRootSync
+
+10. cd rakshak
+
+11. npm start
