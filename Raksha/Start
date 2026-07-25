@@ -19,3 +19,16 @@
 10. cd rakshak
 
 11. npm start(npm run dev)
+
+//Backend Start
+1. mkdir server
+
+2. npm init -y
+
+3. npm install express mongoose cors bcryptjs jsonwebtoken dotenv
+
+4. npm install --save-dev nodemon
+
+npm install -g react-devtools 
+npm install lucide-react@latest --legacy-peer-deps
+npm install ReactDOM
