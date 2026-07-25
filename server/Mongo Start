@@ -1,0 +1,10 @@
+1. mkdir server
+
+2. cd server
+
+3. npm init -y;
+
+4. npm install cors
+
+5. npm install express mongoose cors dotenv bcryptjs jsonwebtoken
+
