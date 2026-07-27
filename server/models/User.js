@@ -4,7 +4,7 @@ const userSchema = new mongoose.Schema({
   name: { type: String, required: true },
   phone: { type: String, required: true },
   email: { type: String, required: true, unique: true },
-  password: { type: String, required: true }, // Original Password (તમારા કહેવા મુજબ)
+  password: { type: String, required: true },
   department: { type: String, required: true },
   isApproved: { type: Boolean, default: false },
   status: { type: String, enum: ["pending", "approved", "rejected"], default: "pending" },
