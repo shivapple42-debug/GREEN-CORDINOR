@@ -1,3 +1,4 @@
+console.log("policeRoute LOADED ✅");
 const express = require("express");
 const router = express.Router();
 const Police = require("../models/Police");
@@ -24,9 +25,9 @@ router.get("/police", async (req, res) => {
 });
 
 // Get a single police record by ID
-router.get("/:id", async (req, res) => {
+router.get("/:idnumber", async (req, res) => {
   try {
-    const policeRecord = await Police.findById(req.params.id);
+    const policeRecord = await Police.findOne({ idnumber: req.params.idnumber });
     if (!policeRecord) return res.status(404).json({ message: "Police record not found" });
     res.json(policeRecord);
   } catch (error) {
