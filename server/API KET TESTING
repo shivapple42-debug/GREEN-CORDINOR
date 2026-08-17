@@ -1,1 +1,83 @@
+Police 
 
+
+key - http://localhost:5001/api/police/police
+
+
+Jeson DATA -
+
+{
+  "idnumber": 11002,
+  "name": "Rasvi Patel",
+  "email": "ravi.psnnatel@example.com",
+  "address": "123 Masin Street, Ahmedabad",
+  "phone": "9676512210",
+  "password": "test123",
+  "department": "Traffic",
+  "rank": "Constable",
+  "station": "Navrangpura Police Station"
+}
+
+
+
+GET Police DATA - 
+
+Key - http://localhost:5001/api/police/police/police/1102
+
+
+
+
+
+Hospital
+http://localhost:5001/api/hospital
+
+
+
+
+Jeson Hospital DATA - 
+
+{
+  "idnumber": 1012,
+  "name": "Civil Hospital",
+  "email": "civifl@hospital.com",
+  "address": "Ring Road, Surat",
+  "phone": "9806543210",
+  "password": "password123",
+  "licenseNumber": "LIC142345",
+  "hospitalType": "Government",
+  "coveredArea": ["Majura Gate", "Adajan"],
+  "bedsAvailable": 50,
+  "emergencyContact": "9876543211",
+  "hasAmbulance": true
+}
+
+
+GET Hospital DATA -
+
+
+Key - http://localhost:5001/api/hospital/1012
+
+
+
+
+Fire
+
+Key - http://localhost:5001/api/fire
+
+Jeson DATA -
+
+{
+  "idnumber": 101,
+  "name": "Central Fire Station",
+  "email": "fire101@example.com",
+  "address": "Ring Road Area, Surat",
+  "phone": "9876543210",
+  "password": "password123",
+  "department": "Fire Suppression",
+  "rank": "Firefighter"
+}
+
+
+GET Fire DATA 
+
+Key - http://localhost:5001/api/fire/101
